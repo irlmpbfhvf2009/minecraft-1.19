@@ -1,0 +1,51 @@
+[19:07:54] [ServerMain/INFO]: Building unoptimized datafixer
+[19:07:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:07:57] [ServerMain/INFO]: Loaded 7 recipes
+[19:07:57] [ServerMain/INFO]: Loaded 1179 advancements
+[19:07:58] [Server thread/INFO]: Starting minecraft server version 1.19
+[19:07:58] [Server thread/INFO]: Loading properties
+[19:07:58] [Server thread/INFO]: Default game type: SURVIVAL
+[19:07:58] [Server thread/INFO]: Generating keypair
+[19:07:58] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: 控制代碼無效。
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at aep$1.run(SourceFile:92) [server-1.19.jar:?]
+[19:07:58] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[19:07:58] [Server thread/INFO]: Using default channel type
+[19:07:59] [Server thread/INFO]: Preparing level "world"
+[19:07:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:08:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:08:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:08:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:08:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:08:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:08:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:08:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:08:02] [Worker-Main-5/INFO]: Preparing spawn area: 26%
+[19:08:03] [Server thread/INFO]: Time elapsed: 4137 ms
+[19:08:03] [Server thread/INFO]: Done (4.311s)! For help, type "help"
+[19:08:10] [User Authenticator #1/INFO]: UUID of player LEO831230 is 3bcf250a-2a00-40c5-9799-c972e1560c9f
+[19:08:10] [Server thread/INFO]: LEO831230[/127.0.0.1:54907] logged in with entity id 160 at (1.10200836413203, 63.0, -21.458583889841577)
+[19:08:10] [Server thread/INFO]: LEO831230 joined the game
+[19:12:47] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[19:12:47] [Server thread/INFO]: git remote add origin https://github.com/irlmpbfhvf2009/minecraft-1.19.git<--[HERE]
+[19:12:50] [Server thread/INFO]: Stopping server
+[19:12:50] [Server thread/INFO]: Saving players
+[19:12:50] [Server thread/INFO]: Saving worlds
+[19:12:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:12:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:12:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:12:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:12:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:12:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:12:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
